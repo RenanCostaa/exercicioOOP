@@ -28,22 +28,26 @@ public class Pessoa{
   }
 
   //setters
-  public void alteraNome(){
+  public void alteraNome(string n){
+    nome=n;
   }
-  public void alteraIdade(){
+  public void alteraIdade(int i){
+    idade=i;
   }
-  public void alteraPeso(){
+  public void alteraPeso(float p){
+    peso=p;
   }
-  public void alteraAltura(){
+  public void alteraAltura(float a){
+    altura=a;
   }
 
 
-  public envelhecer(){
+  public void envelhecer(){
   }
-  public engordar(){
+  public void engordar(){
   }
-  public emagrecer(){
+  public void emagrecer(){
   }
-  public crescer(){
+  public void crescer(){
   }
 }

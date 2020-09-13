@@ -10,18 +10,3 @@ class MainClass {
 
   }
 }
-
-class Pessoa{
-  string nome;
-  int idade;
-  float peso;
-  float altura;
-
-
-  public envelhecer(){
-
-  }
-  public engordar(){
-    
-  }
-}

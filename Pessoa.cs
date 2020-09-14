@@ -10,8 +10,8 @@ public class Pessoa{
   //atributos
   private string nome;
   private int idade;
-  private float peso;
-  private float altura;
+  private double peso;
+  private double altura;
 
   //getters
   public string retornaNome(){
@@ -20,10 +20,10 @@ public class Pessoa{
   public int retornaIdade(){
     return idade;
   }
-  public float retornaPeso(){
+  public double retornaPeso(){
     return peso;
   }
-  public float retornaAltura(){
+  public double retornaAltura(){
     return altura;
   }
 
@@ -34,10 +34,10 @@ public class Pessoa{
   public void alteraIdade(int i){
     idade=i;
   }
-  public void alteraPeso(float p){
+  public void alteraPeso(double p){
     peso=p;
   }
-  public void alteraAltura(float a){
+  public void alteraAltura(double a){
     altura=a;
   }
 

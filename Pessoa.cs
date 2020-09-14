@@ -42,12 +42,16 @@ public class Pessoa{
   }
 
 
-  public void envelhecer(){
+  public void envelhecer(int i){
+    if(i>0) idade=idade+i;
   }
-  public void engordar(){
+  public void engordar(double p){
+    if(p>0) peso=peso+p;
   }
-  public void emagrecer(){
+  public void emagrecer(double p){
+    if(p>0) peso=peso-p;
   }
-  public void crescer(){
+  public void crescer(double a){
+    if(a>0)altura=altura+a;
   }
 }
